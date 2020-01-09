@@ -1,3 +1,3 @@
 {
-    "db":"mongodb+srv://mahmoud-nassif:95685124951@cluster0-rhgan.mongodb.net/test?retryWrites=true&w=majority"
+    "db":"mongodb://mahmoud-nassif:<password>@cluster0-shard-00-00-rhgan.mongodb.net:27017,cluster0-shard-00-01-rhgan.mongodb.net:27017,cluster0-shard-00-02-rhgan.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority"
 }
