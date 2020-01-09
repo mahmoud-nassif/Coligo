@@ -13,12 +13,6 @@ const app=express()
 
 app.use(bodyParser.json())
 
-// if(!config.get('jwtPrivateKey')){
-//     console.log("jwtPrivateKey is not defined")
-//     process.exit(1)
-// }
-
-
 app.get('/',(req,res)=>{
 
     res.send({"message":"hi from home"})
