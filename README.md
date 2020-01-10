@@ -36,6 +36,6 @@ body:{quizID:""}
 
 
 Working Days:
-Monday:2 hours
-Tuesday:6 hours
+Monday:2 hours, 
+Tuesday:6 hours, 
 Thrusday:3 hours
