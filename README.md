@@ -3,22 +3,24 @@ Here's the backend challenge I was given itried to do the optional requirement b
 
 postman testing requests
 
+valid_token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIzMywicm9sZSI6InVzZXIiLCJpYXQiOjE1NzUyNzY2NjR9.eCAFVM2g8mytDiDUaug6_f_CHtAc-YpPLDyIBHNypQI"
+
 1-create quiz request
 http://localhost:3030/api/quiz/create 
 method:post
-headers:{Content-Type:application/json,x-fake-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIzMywicm9sZSI6InVzZXIiLCJpYXQiOjE1NzUyNzY2NjR9.eCAFVM2g8mytDiDUaug6_f_CHtAc-YpPLDyIBHNypQI}
+headers:{Content-Type:application/json,x-fake-token:valid_token }
 body:{title:"nodejs",description:"javascript runtime environment"}
 
 2-add question
 http://localhost:3030/api/quiz/addQuestion
 method:post
-headers:{Content-Type:application/json,x-fake-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIzMywicm9sZSI6InVzZXIiLCJpYXQiOjE1NzUyNzY2NjR9.eCAFVM2g8mytDiDUaug6_f_CHtAc-YpPLDyIBHNypQI}
+headers:{Content-Type:application/json,x-fake-token:valid_token}
 body:{"quizId":"","type":"text|| radio || checkbox","body":"how much","options":[],"correct_answer":string or array based on type}
 
 3-remove question 
 http://localhost:3030/api/quiz/removeQuestion
 method:post
-headers:{Content-Type:application/json,x-fake-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIzMywicm9sZSI6InVzZXIiLCJpYXQiOjE1NzUyNzY2NjR9.eCAFVM2g8mytDiDUaug6_f_CHtAc-YpPLDyIBHNypQI}
+headers:{Content-Type:application/json,x-fake-token:valid_token}
 body:{"quizID":"",questionID:""}
 
 4-list all quizes
