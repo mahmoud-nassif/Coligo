@@ -1,5 +1,5 @@
 # Coligo
-Here's the backend challenge I was given I tried to do the optional requirement but it seems that mongo atlas has removed the sandbox plan(free plan and now requires visa credentials) however in this repository you will find the main 5 api's you need and thier testing folder download repo and run "npm install" to setup dependencies and test it with postman
+ in this repository you will find the main 5 api's you need and thier testing folder download repo and run "npm install" to setup dependencies and test it with postman
 
 postman testing requests
 
