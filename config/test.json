@@ -1,3 +1,4 @@
 {
+    "jwtPrivateKey":"coligo_jwtPrivateKey",
     "db":"mongodb://localhost:27017/coligo_test"
 }
